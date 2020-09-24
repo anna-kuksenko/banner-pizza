@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    background: url("bg_pattern.jpg");
+    font-family: Roboto, sans-serif;
+}
+
+body, html, #main {
+    height: 100%;
+}
+
+#main {
+    background: url("background.png") center top no-repeat;
+}
+
+#main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+}
+
+#menu {
+    margin-left: 140px;
+}
+
+.menu-item {
+    margin-left: 50px;
+    font-size: 15px;
+    color: #322329;
+}
+
+.menu-item:hover {
+    border-bottom: 2px solid;
+    cursor: pointer;
+}
+
+#phone {
+    font-size: 15px;
+    color: white;
+    margin-left: 150px;
+    font-weight: bold;
+}
+
+#telephone {
+    vertical-align: bottom;
+    margin-right: 10px;
+}
+
+#content {
+    margin-top: 160px;
+}
+
+#content-title {
+    font-size: 50px;
+    font-weight: bold;
+    color: #212614;
+}
+
+#content-description {
+    font-size: 18px;
+    max-width: 530px;
+    font-style: italic;
+    margin-top: 55px;
+    color: #212614;
+}
+
+#content-action {
+    margin-top: 50px;
+    color: #212614;
+    font-size: 20px;
+    font-weight: bold;
+    background: #9BED00;
+    width: 282px;
+    height: 70px;
+    border-radius: 35px;
+
+}
+
+#content-action:hover{
+    background: green;
+    cursor: pointer;
+}
